@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.player {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 24px;
+  & span {
+    font-weight: 800;
+  }
+}
+
+.reset {
+  position: absolute;
+  bottom: 50px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #fddf9da1;
+  }
+}
